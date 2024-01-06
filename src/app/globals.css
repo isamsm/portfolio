@@ -16,8 +16,8 @@ body {
 .nav-style {
   display: flex;
   justify-content: space-around;
+  gap: 5px;
   cursor: pointer;
-  font-weight: bold;
 }
 
 nav a:hover {
