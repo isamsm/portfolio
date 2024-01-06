@@ -18,7 +18,7 @@ export default function Projects() {
               <h3 className="pt-2"> CODE&BAKE </h3>
               <div className="flex gap-2">
                 <a className="hover:scale-125" href="https://github.com/isamsm/CODE-BAKE" target="_blank"> <LuCode /> </a>
-                <a className="hover:scale-125" href="code-bake-731nthrd9-isamsm.vercel.app/" target="_blank"> <LuLink2 /> </a>
+                <a className="hover:scale-125" href="https://code-bake.vercel.app" target="_blank"> <LuLink2 /> </a>
               </div>
             </div>
             <div>
