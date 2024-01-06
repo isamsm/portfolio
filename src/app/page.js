@@ -7,12 +7,12 @@ import Menu from "./menu";
 export default function Page() {
   return (
     <>
-      <div className="font-main">
+      <div className="font-main gradient-background">
         <div className="bg-transperent">
           <Menu />
         </div>
         <div className="flex flex-col">
-          <div id="home" className="gradient-background">
+          <div id="home">
             <div className="h-screen px-12 flex items-center">
               <Home />
             </div>
@@ -22,12 +22,12 @@ export default function Page() {
               <About />
             </div>
           </div>
-          <div id="projects" className="gradient-background">
+          <div id="projects">
             <div className="h-screen px-12 flex items-center">
               <Projects />
             </div>
           </div>
-          <div id="contact" className="gradient-background">
+          <div id="contact">
             <div className="h-screen px-12 flex justify-end items-center">
               <Contact />
             </div>

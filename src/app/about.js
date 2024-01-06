@@ -4,7 +4,7 @@ import me from "../../public/me.jpg"
 export default function About() {
   return (
     <>
-      <div className="text-secundary grid md:grid-cols-3 lg:grid-cols-3 gap-5">
+      <div className="text-secundary grid md:grid-cols-3 lg:grid-cols-3 gap-1 lg:gap-5 md:gap-5">
         <div className="flex md:justify-center md:items-center lg:justify-center lg:items-center">
           <Image 
             src={me} 
@@ -13,7 +13,7 @@ export default function About() {
           />
         </div>
         <div>
-          <h1 className="uppercase font-bold text-xl md:text-4xl lg:text-4xl pb-3"> Quem sou eu? </h1>
+          <h1 className="uppercase font-bold text-xl md:text-4xl lg:text-4xl pb-1 md:pb-3 lg:pb-3"> Quem sou eu? </h1>
           <div className="flex gap-5">
             <h2 className="text-md font"> Me chamo Isabelly Maria Marques de Souza e trabalho como desenvolvedora front-end a mais de um ano, tendo me graduado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário do Sul de minas em julho de 2023. Trabalhei em um estágio como desenvolvedora para a empresa Softeo Technologies por um ano e um mês aonde tinha a responsabilidade de desenvolver funcionalidades para sistemas web tendo tido participação em quatro projetos, um deles envolvendo integração com o servidor. Tenho conhecimento e prática em Javascript, React, Next, CSS, Bootstap, Tailwind e um pouco de PHP. </h2>
           </div>
