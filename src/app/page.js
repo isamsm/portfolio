@@ -18,7 +18,7 @@ export default function Page() {
             </div>
           </div>
           <div id="about" className="bg-black">
-            <div className="h-screen px-12 flex justify-center items-center">
+            <div className="h-full px-12 flex justify-center items-center">
               <About />
             </div>
           </div>
