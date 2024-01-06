@@ -13,7 +13,8 @@ export default function Projects() {
             <div>
               <Image 
                 src={boleria}
-               className="rounded-md"
+                className="rounded-md"
+                alt="Imagem da página inicial do meu projeto de boleria"
               />
               <h3 className="pt-2"> CODE&BAKE </h3>
               <div className="flex gap-2">
@@ -24,7 +25,8 @@ export default function Projects() {
             <div>
               <Image 
                 src={escolha}
-               className="rounded-md"
+                className="rounded-md"
+                alt="Imagem da página inicial do meu projeto de escolha"
               />
               <h3 className="pt-2 font-semibold text-md"> Escolha </h3>
               <div className="flex gap-2">

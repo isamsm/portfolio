@@ -10,6 +10,7 @@ export default function About() {
               <Image 
                 src={me} 
                 className="rounded-md h-36 w-auto md:h-96 md:w-auto lg:h-96 lg:w-auto"
+                alt="Uma foto minha"
               />
             </div>
             <div>
