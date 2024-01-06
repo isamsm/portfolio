@@ -28,14 +28,14 @@ export default function Projects() {
                 className="rounded-md"
                 alt="Imagem da página inicial do meu projeto de escolha"
               />
-              <h3 className="pt-2 font-semibold text-md"> Escolha </h3>
+              <h3 className="pt-2 font-semibold md:text-md lg:text-md"> Escolha </h3>
               <div className="flex gap-2">
                 <a className="hover:scale-125" href="https://github.com/isamsm/escolha" target="_blank"> <LuCode /> </a>
                 <a className="hover:scale-125" href="https://escolha.vercel.app" target="_blank"> <LuLink2 /> </a>
               </div>
             </div>
             <div className="flex items-center justify-center">
-              <a className="hover:scale-125" href="https://github.com/isamsm?tab=repositories" target="_blank"> <h3 className="flex gap-2 font-semibold text-2xl"> <LuPlusCircle className="mt-1" /> Veja mais </h3> </a>
+              <a className="hover:scale-125" href="https://github.com/isamsm?tab=repositories" target="_blank"> <h3 className="flex gap-2 font-semibold text-lg md:text-2xl lg:text-2xl"> <LuPlusCircle className="mt-1" /> Veja mais </h3> </a>
             </div>
           </div>
         </div>
