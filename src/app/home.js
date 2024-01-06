@@ -2,9 +2,6 @@
 
 import { TypeAnimation } from 'react-type-animation';
 
-import Image from 'next/image'
-import cursor from "../../public/cursor.gif"
-
 import { LuGithub } from "react-icons/lu";
 import { LuLinkedin } from "react-icons/lu";
 
