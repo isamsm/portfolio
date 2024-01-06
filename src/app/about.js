@@ -9,7 +9,7 @@ export default function About() {
             <div className="flex md:justify-center md:items-center lg:justify-center lg:items-center">
               <Image 
                 src={me} 
-                className="rounded-md h-36 w-auto md:h-96 md:w-auto lg:h-96 lg:w-auto"
+                className="rounded-md h-32 w-auto md:h-96 md:w-auto lg:h-96 lg:w-auto"
                 alt="Uma foto minha"
               />
             </div>
