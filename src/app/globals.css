@@ -13,17 +13,21 @@ body {
     animation: gradient-animation 20s ease infinite;
 }
 
-.ul-style {
+.nav-style {
   display: flex;
   justify-content: space-around;
   cursor: pointer;
   font-weight: bold;
 }
 
-.li-style {
+nav a:hover {
   text-decoration: underline;
 }
   
+.active {
+  text-decoration: underline;
+}
+
 @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;

@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <>
         <div className="text-primary">
-          <h1 className="uppercase font-bold text-4xl pb-7"> Meus projetos </h1>
+          <h1 className="uppercase font-bold text-xl md:text-4xl lg:text-4xl pb-7"> Meus projetos </h1>
           <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-lg">
             <div>
               <Image 
