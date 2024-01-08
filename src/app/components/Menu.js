@@ -16,7 +16,7 @@ export default function Menu() {
 
   useEffect(() => {
     const changeBg = () => {
-      if (window.scrollY >= 90) {
+      if (window.scrollY != undefined && window.scrollY >= 90) {
         setBg(true)
       } else {
         setBg(false)
