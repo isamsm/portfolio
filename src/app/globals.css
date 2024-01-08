@@ -13,6 +13,26 @@ body {
     animation: gradient-animation 20s ease infinite;
 }
 
+.header-props {
+  height: 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.navbar-props {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1248px;
+  margin: auto;
+  height: 100%;
+  padding: 0 1rem;
+}
+
 nav a:hover {
   text-decoration: underline;
 }

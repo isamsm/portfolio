@@ -1,16 +1,17 @@
+"use client"
+
 import Home from "./home";
 import About from "./about";
 import Projects from "./projects";
 import Contact from "./contact";
 import Menu from "./components/Menu";
+import { useState } from "react";
 
 export default function Page() {
   return (
-    <div className="font-main gradient-background">
-      <div  className="bg-transperent">
-        <Menu />
-      </div>
-      <div className="flex flex-col">
+    <div className="font-main">
+      <Menu />
+      <div className="flex flex-col gradient-background">
         <div id="home">
           <div className="h-screen px-5 md:px-12 lg:px-12 flex items-center">
             <Home />
