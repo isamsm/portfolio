@@ -12,7 +12,7 @@ export default function Projects() {
         <div>
           <Image 
             src={boleria}
-            className="rounded-md"
+            className="rounded-md grayscale hover:grayscale-0"
             alt="Imagem da página inicial do meu projeto de boleria"
           />
           <h3 className="pt-2"> CODE&BAKE </h3>
@@ -24,7 +24,7 @@ export default function Projects() {
         <div>
           <Image 
             src={escolha}
-            className="rounded-md"
+            className="rounded-md grayscale hover:grayscale-0"
             alt="Imagem da página inicial do meu projeto de escolha"
           />
           <h3 className="pt-2 font-semibold md:text-md lg:text-md"> Escolha </h3>

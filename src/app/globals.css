@@ -30,6 +30,11 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.hover-rotate:hover {
+  transform: rotateY(180deg);
+  transition: transform 500ms ease-in-out;
+}
+
 @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
