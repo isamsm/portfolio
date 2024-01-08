@@ -16,7 +16,7 @@ export default function Home() {
         alt="eu"
         className='rounded-full h-28 w-28'
       />
-      <div className='uppercase font-bold text-xl md:text-5xl lg:text-5xl text-primary'>
+      <div className='uppercase font-bold text-lg md:text-5xl lg:text-5xl text-primary'>
         <h1> Isabelly Marques </h1>
         <TypeAnimation
           sequence={[
@@ -33,12 +33,12 @@ export default function Home() {
         <div className='flex pt-5 gap-3'>
           <a href="https://github.com/isamsm" target="_blank"> 
             <LuGithub 
-              className="text-3xl hover:scale-125"
+              className="md:text-3xl lg:text-3xl hover:scale-125"
             /> 
           </a>
           <a href="https://www.linkedin.com/in/isamsm/" target="_blank"> 
             <LuLinkedin 
-              className="text-3xl hover:scale-125"
+              className="md:text-3xl lg:text-3xl hover:scale-125"
             /> 
           </a>
         </div>
