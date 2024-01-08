@@ -7,7 +7,7 @@ export default function About() {
       </div>
       <div className="flex flex-col gap-4">
         <h3 className="font-semibold text-lg md:text-3xl lg:text-3xl"> Competências </h3>
-          <div className="flex gap-2 md:gap-5 lg:gap-5 text-2xl md:text-4xl lg:text-4xl pb-1 md:pb-3 lg:pb-3"> 
+          <div className="flex gap-2 md:gap-5 lg:gap-5 text-xl md:text-3xl lg:text-3xl pb-1 md:pb-3 lg:pb-3"> 
             <i class="devicon-html5-plain colored"></i>
             <i class="devicon-javascript-plain colored"></i>
             <i class="devicon-react-original colored"></i>
