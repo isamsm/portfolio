@@ -7,7 +7,7 @@ import { LuPlusCircle, LuCode, LuLink2 } from "react-icons/lu";
 export default function Projects() {
   return (
     <>
-        <div className="text-primary">
+        <div data-aos="zoom-in" className="text-primary">
           <h1 className="uppercase font-bold text-xl md:text-4xl lg:text-4xl pb-7"> Meus projetos </h1>
           <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-lg">
             <div>

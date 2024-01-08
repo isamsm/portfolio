@@ -4,31 +4,22 @@ import me from "../../public/me.jpg"
 export default function About() {
   return (
     <>
-      <div className="text-secundary grid md:grid-cols-3 lg:grid-cols-3 gap-1 lg:gap-5 md:gap-5">
-        <div className="flex md:justify-center md:items-center lg:justify-center lg:items-center">
-          <Image 
-            src={me} 
-            className="rounded-md h-32 w-auto md:h-96 md:w-auto lg:h-96 lg:w-auto"
-            alt="Uma foto minha"
-          />
-        </div>
+      <div data-aos="zoom-in" className="text-secundary flex flex-col md:w-9/12 lg:w-9/12 gap-5">
         <div>
           <h1 className="uppercase font-bold text-xl md:text-4xl lg:text-4xl pb-1 md:pb-3 lg:pb-3"> Quem sou eu? </h1>
-          <div className="flex gap-5">
-            <h2 className="text-md font"> Me chamo Isabelly Maria Marques de Souza e trabalho como desenvolvedora front-end a mais de um ano, tendo me graduado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário do Sul de minas em julho de 2023. Trabalhei em um estágio como desenvolvedora para a empresa Softeo Technologies por um ano e um mês aonde tinha a responsabilidade de desenvolver funcionalidades para sistemas web tendo tido participação em quatro projetos, um deles envolvendo integração com o servidor. Tenho conhecimento e prática em Javascript, React, Next, CSS, Bootstap, Tailwind e um pouco de PHP. </h2>
-          </div>
+          <h2 className="text-md font"> Me chamo Isabelly Maria Marques de Souza e trabalho como desenvolvedora front-end a mais de um ano, tendo me graduado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário do Sul de minas em julho de 2023. Trabalhei em um estágio como desenvolvedora para a empresa Softeo Technologies por um ano e um mês aonde tinha a responsabilidade de desenvolver funcionalidades para sistemas web tendo tido participação em quatro projetos, um deles envolvendo integração com o servidor. Tenho conhecimento e prática em Javascript, React, Next, CSS, Bootstap, Tailwind e um pouco de PHP. </h2>
         </div>
-        <div>
-          <h3 className="font-semibold text-lg md:text-2xl lg:text-2xl underline underline-offset-4 decoration-tailblue"> Competências </h3>
-          <ul className="list-disc pl-4">
-            <li> Inglês - Avançado </li>
-            <li> HTML, Javascript e CSS </li>
-            <li> ReactJs </li>
-            <li> NextJs </li>
-            <li> Bootstrap </li>
-            <li> Tailwind </li>
-            <li> PHP </li>
-          </ul>
+        <div className="flex flex-col gap-4">
+          <h3 className="font-semibold text-lg md:text-3xl lg:text-3xl"> Competências </h3>
+            <div className="flex gap-2 md:gap-5 lg:gap-5 text-xl md:text-4xl lg:text-4xl pb-1 md:pb-3 lg:pb-3"> 
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+              <i class="devicon-react-original-wordmark colored"></i>
+              <i class="devicon-nextjs-original-wordmark"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-bootstrap-plain-wordmark colored"></i>
+              <i class="devicon-tailwindcss-original-wordmark colored"></i>
+            </div>
         </div>
       </div>
     </>
