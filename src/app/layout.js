@@ -5,7 +5,7 @@ import { AOSInit } from './components/Aos'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "Isa's portfolio",
+  title: "Portfolio da Isabelly",
   description: 'Porfolio da Isabelly Maria Marques de Souza, desenvolvedora front-end',
 }
 
