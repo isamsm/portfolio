@@ -23,7 +23,20 @@ export default function Menu() {
       }
     }
 
+    const changeActiveBtn = () => {
+      if (window.scrollY != undefined && window.scrollY <680) {
+        setActiveButton("home")
+      } else if (window.scrollY != undefined && window.scrollY >=680 && window.scrollY <1360) {
+        setActiveButton("about")
+      } else if (window.scrollY != undefined && window.scrollY >=1360 && window.scrollY <2040) {
+        setActiveButton("projects")
+      } else if (window.scrollY != undefined && window.scrollY >=2040) {
+        setActiveButton("contact")
+      }
+    }
+
     window.addEventListener("scroll", changeBg)
+    window.addEventListener("scroll", changeActiveBtn)
   })
 
   return (
