@@ -23,7 +23,7 @@ export default function Page() {
           </div>
         </div>
         <div id="projects">
-          <div className="h-screen px-5 md:px-12 lg:px-12 flex items-center">
+          <div className="h-full md:h-screen lg:h-screen pt-12 md:p-0 lg:p-0 px-5 md:px-12 lg:px-12 flex items-center">
             <Projects />
           </div>
         </div>
