@@ -18,12 +18,12 @@ export default function Page() {
           </div>
         </div>
         <div id="about" className="bg-black">
-          <div className="h-screen px-5 md:px-12 lg:px-12 flex md:justify-center lg:justify-center items-center">
+          <div className="h-full md:h-screen lg:h-screen py-12 md:py-0 lg:py-0 px-5 md:px-12 lg:px-12 flex md:justify-center lg:justify-center items-center">
             <About />
           </div>
         </div>
         <div id="projects">
-          <div className="h-full md:h-screen lg:h-screen pt-12 md:p-0 lg:p-0 px-5 md:px-12 lg:px-12 flex items-center">
+          <div className="h-full pt-12 px-5 md:px-12 lg:px-12 flex justify-center items-center">
             <Projects />
           </div>
         </div>
