@@ -14,7 +14,7 @@ export default function Contact() {
       <form id="fs-frm" action="https://formspree.io/f/xpzvkele" method="POST">
         <fieldset id="fs-frm-inputs" className="flex flex-col gap-5 mt-5">
           <div>
-            <label for="name" className="block mb-2 font-medium text-primary">
+            <label htmlFor="name" className="block mb-2 font-medium text-primary">
               Nome
             </label>
             <input
@@ -25,7 +25,7 @@ export default function Contact() {
             />
           </div>
           <div>
-            <label for="email" className="block mb-2 font-medium text-primary">
+            <label htmlFor="email" className="block mb-2 font-medium text-primary">
               Email
             </label>
             <input
@@ -37,7 +37,7 @@ export default function Contact() {
           </div>
           <div>
             <label
-              for="message"
+              htmlFor="message"
               className="block mb-2 font-medium text-primary"
             >
               Mensagem

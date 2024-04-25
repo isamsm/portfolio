@@ -22,7 +22,7 @@ export default function Menu() {
     }
 
     const changeActiveBtn = () => {
-      let sections = document.querySelectorAll('section')
+      // let sections = document.querySelectorAll('section')
       sections.forEach((s) => {
         let top = window.scrollY
         let offSet = s.offsetTop - 150
@@ -39,9 +39,9 @@ export default function Menu() {
     window.addEventListener('scroll', changeActiveBtn)
 
     return () => {
-      window.removeEventListener('scroll', changeBg)
+      window.removeEventListener('scroll', changeBg);
       window.addEventListener('scroll', changeActiveBtn)
-    }
+    };
   })
 
   return (
@@ -52,7 +52,7 @@ export default function Menu() {
           : 'bg-transparent text-primary header-props'
       }
     >
-      <nav id="nav_buttons" className="flex justify-around cursor-pointer">
+      <nav id='nav_buttons' className="flex justify-around cursor-pointer">
         <a
           className={activeButton === 'home' ? 'active' : ''}
           onClick={() => handleButtonClick('home')}
