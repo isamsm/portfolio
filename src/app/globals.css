@@ -15,11 +15,30 @@ body {
 
 .header-props {
   position: fixed;
-  height: 35px;
+  height: 40px;
   padding-top: 6px;
   width: 100%;
   font-weight: bold;
   z-index: 1;
+  transition: 0.5s;
+}
+
+.pulse {
+	animation: pulse 0.9s infinite;
+}
+
+@keyframes pulse {
+  0% {
+		transform: scale(0.95);
+	}
+
+	70% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.95);
+	}
 }
 
 nav a:hover {

@@ -19,7 +19,7 @@ export default function Home() {
         <h1> Isabelly Marques </h1>
         <TypeAnimation
           sequence={[
-            'Desenvolvedora front-end ',
+            'Desenvolvedora front-end',
             1000, 
             'Analista de sistemas',
             1000,
