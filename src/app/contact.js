@@ -1,5 +1,4 @@
-import { LuMailPlus } from "react-icons/lu";
-import { LuMessageSquarePlus } from "react-icons/lu";
+import { LuMailPlus, LuMessageSquarePlus } from "react-icons/lu"
 
 export default function Contact() {
   return (

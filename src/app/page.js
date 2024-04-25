@@ -1,11 +1,10 @@
 "use client"
 
-import Home from "./home";
-import About from "./about";
-import Projects from "./projects";
-import Contact from "./contact";
-import Menu from "./components/Menu";
-import { useState } from "react";
+import Home from "./home"
+import About from "./about"
+import Projects from "./projects"
+import Contact from "./contact"
+import Menu from "./components/Menu"
 
 export default function Page() {
   return (

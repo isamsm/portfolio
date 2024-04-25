@@ -3,7 +3,7 @@ import boleria from "../../public/projects/boleria.png"
 import escolha from "../../public/projects/escolha.png"
 import gameflix from "../../public/projects/gameflix.png"
 
-import { LuPlusCircle, LuCode, LuLink2 } from "react-icons/lu";
+import { LuPlusCircle, LuCode, LuLink2 } from "react-icons/lu"
 
 export default function Projects() {
   return (

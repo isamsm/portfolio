@@ -1,15 +1,13 @@
 "use client"
 
-import { useEffect, useState } from "react";
-
-import { TbCoffee } from "react-icons/tb";
+import { useEffect, useState } from "react"
 
 export default function Menu() {
-  const [activeButton, setActiveButton] = useState("home");
+  const [activeButton, setActiveButton] = useState("home")
 
   const handleButtonClick = (buttonId) => {
     setActiveButton(buttonId);
-    document.getElementById(buttonId).scrollIntoView({ behavior: "smooth" });
+    document.getElementById(buttonId).scrollIntoView({ behavior: "smooth" })
   };
 
   const [bg, setBg] = useState(false)

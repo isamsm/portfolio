@@ -1,12 +1,11 @@
 "use client"
 
-import Image from 'next/image';
+import Image from 'next/image'
 import photo from '../../public/me.jpg'
 
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from 'react-type-animation'
 
-import { LuGithub } from "react-icons/lu";
-import { LuLinkedin } from "react-icons/lu";
+import { LuGithub, LuLinkedin } from "react-icons/lu"
 
 export default function Home() {
   return (
