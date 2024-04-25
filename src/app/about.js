@@ -14,25 +14,24 @@ export default function About() {
           Me chamo Isabelly Maria Marques de Souza e sou uma Desenvolvedora
           Front-End já no ramo da tecnologia a dois anos, tenho uma paixão pela
           programação desde a infância que surpreendentemente, acabou se
-          tornando minha carreira. 
+          tornando minha carreira.
           <br />
           <br />
-          Sempre estou em busca de aprimorar meus
-          conhecimentos, minhas habilidades e desvendar cada vez mais esse mundo
-          de computação. 
+          Sempre estou em busca de aprimorar meus conhecimentos, minhas
+          habilidades e desvendar cada vez mais esse mundo de computação.
           <br />
           <br />
-          Sou formada em Análise e Desenvolvimento de Sistemas
-          pelo Centro Universitário do Sul de Minas(2023) aonde aprendi sobre
-          cada ramo que poderia seguir e me apaixonei pelos códigos, pela ideia
-          de criar algo do zero que poderia chegar a outras pessoas em qualquer
-          parte do planeta. 
+          Sou formada em Análise e Desenvolvimento de Sistemas pelo Centro
+          Universitário do Sul de Minas(2023) aonde aprendi sobre cada ramo que
+          poderia seguir e me apaixonei pelos códigos, pela ideia de criar algo
+          do zero que poderia chegar a outras pessoas em qualquer parte do
+          planeta.
           <br />
           <br />
-          Estou me desenvolvendo profissionalmente, durante
-          minha faculdade fiz um estágio como desenvolvedora na Softeo
-          Technologies que durou um ano e um mês na onde me aprofundei muito e
-          conheci o React, minha principal stack.
+          Estou me desenvolvendo profissionalmente, durante minha faculdade fiz
+          um estágio como desenvolvedora na Softeo Technologies que durou um ano
+          e um mês na onde me aprofundei muito e conheci o React, minha
+          principal stack.
         </h2>
       </div>
       <div className="flex flex-col gap-4">

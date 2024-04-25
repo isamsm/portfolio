@@ -1,10 +1,8 @@
-"use client"
-
-import Home from "./home"
-import About from "./about"
-import Projects from "./projects"
-import Contact from "./contact"
-import Menu from "./components/Menu"
+import Home from './home'
+import About from './about'
+import Projects from './projects'
+import Contact from './contact'
+import Menu from './components/Menu'
 
 export default function Page() {
   return (
