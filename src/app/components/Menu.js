@@ -22,7 +22,7 @@ export default function Menu() {
     }
 
     const changeActiveBtn = () => {
-      // let sections = document.querySelectorAll('section')
+      let sections = document.querySelectorAll('section')
       sections.forEach((s) => {
         let top = window.scrollY
         let offSet = s.offsetTop - 150
