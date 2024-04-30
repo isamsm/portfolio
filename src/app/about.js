@@ -18,7 +18,7 @@ export default function About() {
           <br />
           <br />
           Sempre estou em busca de aprimorar meus conhecimentos, minhas
-          habilidades e desvendar cada vez mais esse mundo de computação.
+          habilidades e desvendar cada vez mais esse mundo da computação.
           <br />
           <br />
           Sou formada em Análise e Desenvolvimento de Sistemas pelo Centro
