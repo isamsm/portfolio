@@ -16,7 +16,7 @@ export default function Home() {
       <Image
         src={photo}
         alt="eu"
-        className="rounded-full h-28 w-28 grayscale-0 hover:grayscale hover-rotate"
+        className="rounded-full h-28 w-28"
       />
       <div className="uppercase font-bold text-lg md:text-5xl lg:text-5xl text-primary">
         <h1> Isabelly Marques </h1>

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import boleria from '../../public/projects/boleria.png'
 import escolha from '../../public/projects/escolha.png'
 import gameflix from '../../public/projects/gameflix.png'
+import auth from '../../public/projects/auth.png'
 
 import { LuPlusCircle, LuCode, LuLink2 } from 'react-icons/lu'
 
@@ -16,7 +17,7 @@ export default function Projects() {
         <div>
           <Image
             src={boleria}
-            className="rounded-md grayscale-0 hover:grayscale hover-rotate"
+            className="rounded-md"
             alt="Imagem da página inicial do meu projeto de boleria"
           />
           <h3 className="pt-2"> CODE&BAKE </h3>
@@ -42,7 +43,7 @@ export default function Projects() {
         <div>
           <Image
             src={escolha}
-            className="rounded-md grayscale-0 hover:grayscale hover-rotate"
+            className="rounded-md"
             alt="Imagem da página inicial do meu projeto de escolha"
           />
           <h3 className="pt-2 font-semibold md:text-md lg:text-md">
@@ -71,7 +72,7 @@ export default function Projects() {
         <div>
           <Image
             src={gameflix}
-            className="rounded-md grayscale-0 hover:grayscale hover-rotate"
+            className="rounded-md"
             alt="Imagem da página inicial do meu projeto do gameflix"
           />
           <h3 className="pt-2 font-semibold md:text-md lg:text-md">
@@ -99,7 +100,36 @@ export default function Projects() {
         </div>
       </div>
       <div className="grid md:grid-cols-3 lg:grid-cols-3 font-semibold text-lg">
-        <div className="flex items-center justify-start">
+      <div>
+          <Image
+            src={auth}
+            className="rounded-md"
+            alt="Imagem da página inicial do meu projeto de login/cadastro"
+          />
+          <h3 className="pt-2 font-semibold md:text-md lg:text-md">
+            {' '}
+            Authentification{' '}
+          </h3>
+          <div className="flex gap-2">
+            <a
+              className="hover:scale-125"
+              href="https://github.com/isamsm/authentification"
+              target="_blank"
+            >
+              {' '}
+              <LuCode />{' '}
+            </a>
+            <a
+              className="hover:scale-125"
+              href="https://isamsm.github.io/authentification/"
+              target="_blank"
+            >
+              {' '}
+              <LuLink2 />{' '}
+            </a>
+          </div>
+        </div>
+        <div className="flex items-center justify-center">
           <a
             className="hover:scale-125"
             href="https://github.com/isamsm?tab=repositories"
