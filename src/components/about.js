@@ -32,6 +32,10 @@ export default function About() {
           um estágio como desenvolvedora na Softeo Technologies que durou um ano
           e um mês na onde me aprofundei muito e conheci o React, minha
           principal stack.
+          <br />
+          Sou uma pessoa proativa, tenho conhecimento avançado em inglês, sei
+          trabalhar em equipe, tenho uma boa comunicação além de ser também
+          autodidata.
         </h2>
       </div>
       <div className="flex flex-col gap-4">
