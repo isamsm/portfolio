@@ -30,7 +30,7 @@ export default function Page() {
           </div>
         </section>
         <footer className='flex justify-center'>
-          <p> © Isa Marques, 2024 </p>
+          <p className='text-primary'> © Isa Marques, 2024 </p>
         </footer>
       </div>
     </div>
