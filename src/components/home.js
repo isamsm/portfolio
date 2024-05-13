@@ -18,7 +18,7 @@ export default function Home() {
         alt="eu"
         className="avatar-float h-48 w-48 md:h-56 md:w-56 lg:h-72 lg:w-72"
       />
-      <div className="flex flex-col justify-center uppercase font-bold text-lg md:text-5xl lg:text-5xl text-primary">
+      <div className="flex flex-col justify-center uppercase font-bold text-xl md:text-5xl lg:text-5xl text-primary">
         <h1> Isabelly Marques </h1>
         <TypeAnimation
           sequence={[

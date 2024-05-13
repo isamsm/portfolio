@@ -1,8 +1,8 @@
-import Home from './home'
-import About from './about'
-import Projects from './projects'
-import Contact from './contact'
-import Menu from './components/Menu'
+import Home from '../components/home'
+import About from '../components/about'
+import Projects from '../components/projects'
+import Contact from '../components/contact'
+import Menu from '../components/Menu'
 
 export default function Page() {
   return (

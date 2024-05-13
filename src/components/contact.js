@@ -16,10 +16,11 @@ export default function Contact() {
           <input type="hidden" name="_captcha" value="false" />
           <input type="text" name="_honey" style={{ display: 'none' }} />
           <input type="hidden" name="_template" value="basic" />
+          <input type="hidden" name="_next" value="https://portfolio-git-main-isamsms-projects.vercel.app/thankyou"/>
           <input
             type="hidden"
             name="_autoresponse"
-            value="Obrigada pelo contato! Retornarei assim que possível"
+            value="Obrigada pelo contato! Retornarei assim que possível."
           />
           <label className="block mb-2 font-medium text-primary">Nome:</label>
           <input
