@@ -11,45 +11,44 @@ export default function Contact() {
         principalmente quando essas podem me trazer um crescimento pessoal e
         profissional. Entre em contato!{' '}
       </h2>
-      <form id="fs-frm" action="https://formspree.io/f/xpzvkele" method="POST">
-        <fieldset id="fs-frm-inputs" className="flex flex-col gap-5 mt-5">
-          <div>
-            <label htmlFor="name" className="block mb-2 font-medium text-primary">
-              Nome
-            </label>
-            <input
-              type="text"
-              name="name"
-              required
-              className="block w-full p-2.5 text-primary border border-secundary rounded-lg bg-secundary focus:primary focus:border-primary"
-            />
-          </div>
-          <div>
-            <label htmlFor="email" className="block mb-2 font-medium text-primary">
-              Email
-            </label>
-            <input
-              type="email"
-              name="email"
-              required
-              className="block w-full p-2.5 text-primary border border-secundary rounded-lg bg-secundary focus:primary focus:border-primary"
-            />
-          </div>
-          <div>
-            <label
-              htmlFor="message"
-              className="block mb-2 font-medium text-primary"
-            >
-              Mensagem
-            </label>
-            <textarea
-              type="text"
-              name="message"
-              required
-              className="block w-full p-2.5 text-primary border border-secundary rounded-lg bg-secundary focus:primary focus:border-primary"
-            />
-          </div>
-        </fieldset>
+      <form action="https://formsubmit.co/isamarsques@gmail.com" method="POST">
+        <div className="flex flex-col gap-1 mt-5">
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="text" name="_honey" style={{ display: 'none' }} />
+          <input type="hidden" name="_template" value="basic" />
+          <input
+            type="hidden"
+            name="_autoresponse"
+            value="Obrigada pelo contato! Retornarei assim que possível"
+          />
+          <label className="block mb-2 font-medium text-primary">Nome:</label>
+          <input
+            type="text"
+            name="name"
+            required
+            className="block w-full p-2.5 text-primary border border-secundary rounded-lg bg-secundary focus:primary focus:border-primary"
+          />
+        </div>
+        <div className="flex flex-col gap-1 mt-5">
+          <label className="block mb-2 font-medium text-primary">Email:</label>
+          <input
+            type="email"
+            name="email"
+            required
+            className="block w-full p-2.5 text-primary border border-secundary rounded-lg bg-secundary focus:primary focus:border-primary"
+          />
+        </div>
+        <div className="flex flex-col gap-1 mt-5">
+          <label className="block mb-2 font-medium text-primary">
+            Mensagem:
+          </label>
+          <textarea
+            type="text"
+            name="message"
+            required
+            className="block w-full p-2.5 text-primary border border-secundary rounded-lg bg-secundary focus:primary focus:border-primary"
+          />
+        </div>
         <div>
           <button
             type="submit"
