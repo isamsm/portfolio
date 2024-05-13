@@ -49,6 +49,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.avatar-float {
+  animation: float 2s ease-in-out infinite;
+}
+
 @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
@@ -59,5 +63,14 @@ nav a:hover {
     100% {
       background-position: 0% 50%;
     }
+}
+
+@keyframes float{
+	0%, 100% {
+		transform:translatey(0)
+	}
+	50% {
+		transform:translatey(-10px)
+	}
 }
 

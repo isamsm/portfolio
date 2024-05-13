@@ -23,7 +23,7 @@ export default function Projects() {
           <h3 className="pt-2"> CODE&BAKE </h3>
           <div className="flex gap-2">
             <a
-              className="hover:scale-125"
+              className="transition transform hover:scale-125"
               href="https://github.com/isamsm/CODE-BAKE"
               target="_blank"
             >
@@ -31,7 +31,7 @@ export default function Projects() {
               <LuCode />{' '}
             </a>
             <a
-              className="hover:scale-125"
+              className="transition transform hover:scale-125"
               href="https://code-bake.vercel.app"
               target="_blank"
             >
@@ -52,7 +52,7 @@ export default function Projects() {
           </h3>
           <div className="flex gap-2">
             <a
-              className="hover:scale-125"
+              className="transition transform hover:scale-125"
               href="https://github.com/isamsm/escolha"
               target="_blank"
             >
@@ -60,7 +60,7 @@ export default function Projects() {
               <LuCode />{' '}
             </a>
             <a
-              className="hover:scale-125"
+              className="transition transform hover:scale-125"
               href="https://escolha.vercel.app"
               target="_blank"
             >
@@ -81,7 +81,7 @@ export default function Projects() {
           </h3>
           <div className="flex gap-2">
             <a
-              className="hover:scale-125"
+              className="transition transform hover:scale-125"
               href="https://github.com/isamsm/gameflix"
               target="_blank"
             >
@@ -89,7 +89,7 @@ export default function Projects() {
               <LuCode />{' '}
             </a>
             <a
-              className="hover:scale-125"
+              className="transition transform hover:scale-125"
               href="https://gameflix-ashen.vercel.app"
               target="_blank"
             >
@@ -112,7 +112,7 @@ export default function Projects() {
           </h3>
           <div className="flex gap-2">
             <a
-              className="hover:scale-125"
+              className="transition transform hover:scale-125"
               href="https://github.com/isamsm/authentification"
               target="_blank"
             >
@@ -120,7 +120,7 @@ export default function Projects() {
               <LuCode />{' '}
             </a>
             <a
-              className="hover:scale-125"
+              className="transition transform hover:scale-125"
               href="https://isamsm.github.io/authentification/"
               target="_blank"
             >
@@ -131,7 +131,7 @@ export default function Projects() {
         </div>
         <div className="flex items-center justify-center">
           <a
-            className="hover:scale-125"
+            className="transition transform hover:scale-125"
             href="https://github.com/isamsm?tab=repositories"
             target="_blank"
           >
