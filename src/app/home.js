@@ -5,7 +5,7 @@ import avatar from '../../public/avatar.png'
 
 import { TypeAnimation } from 'react-type-animation'
 
-import { LuGithub, LuLinkedin } from 'react-icons/lu'
+import { TiSocialLinkedinCircular, TiSocialGithubCircular } from "react-icons/ti";
 
 export default function Home() {
   return (
@@ -32,12 +32,12 @@ export default function Home() {
           repeat={Infinity}
           className="flex flex-row"
         />
-        <div className="flex pt-5 gap-3">
+        <div className="flex pt-1 gap-1">
           <a href="https://github.com/isamsm" target="_blank">
-            <LuGithub className="md:text-3xl lg:text-3xl transition transform hover:scale-125" />
+            <TiSocialGithubCircular className="text-4xl transition transform hover:scale-125" />
           </a>
           <a href="https://www.linkedin.com/in/isamsm/" target="_blank">
-            <LuLinkedin className="md:text-3xl lg:text-3xl transition transform hover:scale-125" />
+            <TiSocialLinkedinCircular className="text-4xl transition transform hover:scale-125" />
           </a>
         </div>
       </div>

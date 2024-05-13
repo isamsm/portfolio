@@ -129,14 +129,14 @@ export default function Projects() {
             </a>
           </div>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex md:items-center md:justify-center lg:items-center lg:justify-center">
           <a
             className="transition transform hover:scale-125"
             href="https://github.com/isamsm?tab=repositories"
             target="_blank"
           >
             {' '}
-            <h3 className="flex gap-2 font-semibold text-lg md:text-2xl lg:text-2xl">
+            <h3 className="flex pt-12 md:pt-0 lg:pt-0 gap-2 font-semibold text-lg md:text-2xl lg:text-2xl">
               {' '}
               <LuPlusCircle className="mt-1" /> Veja mais{' '}
             </h3>{' '}
