@@ -29,6 +29,9 @@ export default function Page() {
             <Contact />
           </div>
         </section>
+        <footer className='flex justify-center'>
+          <p> © Isa Marques, 2024 </p>
+        </footer>
       </div>
     </div>
   )
