@@ -33,6 +33,7 @@ export default function About() {
           e um mês na onde me aprofundei muito e conheci o React, minha
           principal stack.
           <br />
+          <br />
           Sou uma pessoa proativa, tenho conhecimento avançado em inglês, sei
           trabalhar em equipe, tenho uma boa comunicação além de ser também
           autodidata.
