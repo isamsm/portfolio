@@ -1,39 +1,31 @@
-<h1> Portfolio </h1>
+# Portfolio 🌷
 
-<h3> Meu portfolio com minhas informações e exemplos de projetos feitos por mim em NextJs e Tailwind, ferramentas que decidi usar para me aprofundar nelas. </h3>
+## Sobre
 
-<h3> Link do projeto hospedado: https://portfolio-isamsm.vercel.app/ </h3>
+### Meu portfolio com minhas informações e exemplos de projetos feitos por mim em NextJs e Tailwind, ferramentas que decidi usar para me aprofundar nelas. </h3>
 
-##
+## Como usar
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### 1. Clonar o projeto em sua máquina:
 
-# Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
 ```
-After the installation is complete, run `npm run dev` to start the Next development server, this will make the app available on port 3000, on localhost.
+git clone https://github.com/isamsm/portfolio
+```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Instalar dependências:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+npm i
+```
 
-# Learn More
+### 3. Rodar o projeto:
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4. Acessar o ambiente local:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+localhost:3000 no seu navegador.
 
-# Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+E pronto, dessa forma você já terá o projeto rodando em sua máquina!
