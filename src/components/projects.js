@@ -3,6 +3,7 @@ import boleria from '../../public/projects/boleria.png'
 import escolha from '../../public/projects/escolha.png'
 import gameflix from '../../public/projects/gameflix.png'
 import auth from '../../public/projects/auth.png'
+import todo from '../../public/projects/todo.png'
 
 import { LuPlusCircle, LuCode, LuLink2 } from 'react-icons/lu'
 
@@ -99,7 +100,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="grid md:grid-cols-3 lg:grid-cols-3 font-semibold text-lg">
+      <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-lg">
       <div>
           <Image
             src={auth}
@@ -122,6 +123,35 @@ export default function Projects() {
             <a
               className="transition transform hover:scale-125"
               href="https://isamsm.github.io/authentification/"
+              target="_blank"
+            >
+              {' '}
+              <LuLink2 />{' '}
+            </a>
+          </div>
+        </div>
+        <div>
+          <Image
+            src={todo}
+            className="rounded-md"
+            alt="Imagem da página inicial do meu projeto de to-do-list"
+          />
+          <h3 className="pt-2 font-semibold md:text-md lg:text-md">
+            {' '}
+            To-Do-List{' '}
+          </h3>
+          <div className="flex gap-2">
+            <a
+              className="transition transform hover:scale-125"
+              href="https://github.com/isamsm/to-do-list"
+              target="_blank"
+            >
+              {' '}
+              <LuCode />{' '}
+            </a>
+            <a
+              className="transition transform hover:scale-125"
+              href="https://isamsm.github.io/to-do-list/"
               target="_blank"
             >
               {' '}
