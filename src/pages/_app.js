@@ -5,16 +5,12 @@ import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Portfolio da Isabelly',
-  description:
-    'Porfolio da Isabelly Maria Marques de Souza, desenvolvedora front-end',
-}
-
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
