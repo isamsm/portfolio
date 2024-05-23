@@ -33,10 +33,10 @@ export default function Home() {
           className="flex flex-row"
         />
         <div className="flex pt-1 gap-1">
-          <a href="https://github.com/isamsm" target="_blank">
+          <a href="https://github.com/isamsm" title='Link do meu github' target="_blank">
             <TiSocialGithubCircular className="text-4xl transition transform hover:scale-125" />
           </a>
-          <a href="https://www.linkedin.com/in/isamsm/" target="_blank">
+          <a href="https://www.linkedin.com/in/isamsm/" title='Link do meu linkedin' target="_blank">
             <TiSocialLinkedinCircular className="text-4xl transition transform hover:scale-125" />
           </a>
         </div>

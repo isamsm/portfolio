@@ -54,6 +54,7 @@ export default function Menu() {
     >
       <nav id='nav_buttons' className="flex justify-around cursor-pointer">
         <a
+          title='Navegar para a home'
           className={activeButton === 'home' ? 'active' : ''}
           onClick={() => handleButtonClick('home')}
         >
@@ -61,6 +62,7 @@ export default function Menu() {
           Inicio{' '}
         </a>
         <a
+          title='Navegar para o sobre'
           className={activeButton === 'about' ? 'active' : ''}
           onClick={() => handleButtonClick('about')}
         >
@@ -68,6 +70,7 @@ export default function Menu() {
           Sobre{' '}
         </a>
         <a
+          title='Navegar para os projetos'
           className={activeButton === 'projects' ? 'active' : ''}
           onClick={() => handleButtonClick('projects')}
         >
@@ -75,6 +78,7 @@ export default function Menu() {
           Projetos{' '}
         </a>
         <a
+          title='Navegar para o contato'
           className={activeButton === 'contact' ? 'active' : ''}
           onClick={() => handleButtonClick('contact')}
         >

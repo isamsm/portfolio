@@ -26,6 +26,7 @@ export default function Contact() {
           <input
             type="text"
             name="name"
+            placeholder="Informe seu nome"
             required
             className="block w-full p-2.5 text-primary border border-secundary rounded-lg bg-secundary focus:primary focus:border-primary"
           />
@@ -35,6 +36,7 @@ export default function Contact() {
           <input
             type="email"
             name="email"
+            placeholder="Informe seu e-mail"
             required
             className="block w-full p-2.5 text-primary border border-secundary rounded-lg bg-secundary focus:primary focus:border-primary"
           />
@@ -46,12 +48,14 @@ export default function Contact() {
           <textarea
             type="text"
             name="message"
+            placeholder="Escreva sua mensagem"
             required
             className="block w-full p-2.5 text-primary border border-secundary rounded-lg bg-secundary focus:primary focus:border-primary"
           />
         </div>
         <div>
           <button
+            title='Enviar e-mail'
             type="submit"
             className="text-white bg-primary hover:bg-primary focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 mt-5"
           >
