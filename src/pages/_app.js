@@ -9,14 +9,17 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title> Isas portfolio </title>
-        <meta name="description" content='Porfolio da Isabelly Maria Marques de Souza, desenvolvedora front-end'/>
+        <title> Portfolio Isabelly </title>
+        <meta
+          name="description"
+          content="Porfolio da Isabelly Maria Marques de Souza, desenvolvedora front-end"
+        />
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
         />
       </Head>
-      <div className={inter.className}>
+      <div className={inter.className}>gi
         <AOSInit />
         <Component {...pageProps} />
       </div>
