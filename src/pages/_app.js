@@ -9,7 +9,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title> Isa's portfolio </title>
+        <title> Isas portfolio </title>
         <meta name="description" content='Porfolio da Isabelly Maria Marques de Souza, desenvolvedora front-end'/>
         <link
           rel="stylesheet"
