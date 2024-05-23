@@ -9,7 +9,7 @@ export default function About() {
           {' '}
           Quem sou eu?{' '}
         </h1>
-        <h2 className="text-md font">
+        <p>
           {' '}
           Me chamo Isabelly Maria Marques de Souza e sou uma Desenvolvedora
           Front-End já no ramo da tecnologia a dois anos, tenho uma paixão pela
@@ -37,13 +37,13 @@ export default function About() {
           Sou uma pessoa proativa, tenho conhecimento avançado em inglês, sei
           trabalhar em equipe, tenho uma boa comunicação além de ser também
           autodidata.
-        </h2>
+        </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h3 className="font-semibold text-lg md:text-3xl lg:text-3xl">
+        <h2 className="font-semibold text-lg md:text-3xl lg:text-3xl">
           {' '}
           Competências{' '}
-        </h3>
+        </h2>
         <div className="flex gap-2 md:gap-5 lg:gap-5 text-2xl md:text-3xl lg:text-3xl pb-1 md:pb-3 lg:pb-3">
           <i class="pulse devicon-html5-plain colored"></i>
           <i class="pulse devicon-javascript-plain colored"></i>

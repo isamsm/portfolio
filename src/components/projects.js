@@ -22,7 +22,7 @@ export default function Projects() {
             className="rounded-md"
             alt="Imagem da página inicial do meu projeto de boleria"
           />
-          <h3 className="pt-2"> CODE&BAKE </h3>
+          <h5 className="pt-2"> CODE&BAKE </h5>
           <div className="flex gap-2">
             <a
               className="transition transform hover:scale-125"
@@ -48,10 +48,10 @@ export default function Projects() {
             className="rounded-md"
             alt="Imagem da página inicial do meu projeto de escolha"
           />
-          <h3 className="pt-2 font-semibold md:text-md lg:text-md">
+          <h5 className="pt-2 font-semibold md:text-md lg:text-md">
             {' '}
             Escolha{' '}
-          </h3>
+          </h5>
           <div className="flex gap-2">
             <a
               className="transition transform hover:scale-125"
@@ -77,10 +77,10 @@ export default function Projects() {
             className="rounded-md"
             alt="Imagem da página inicial do meu projeto do gameflix"
           />
-          <h3 className="pt-2 font-semibold md:text-md lg:text-md">
+          <h5 className="pt-2 font-semibold md:text-md lg:text-md">
             {' '}
             Gameflix{' '}
-          </h3>
+          </h5>
           <div className="flex gap-2">
             <a
               className="transition transform hover:scale-125"
@@ -108,10 +108,10 @@ export default function Projects() {
             className="rounded-md"
             alt="Imagem da página inicial do meu projeto de login/cadastro"
           />
-          <h3 className="pt-2 font-semibold md:text-md lg:text-md">
+          <h5 className="pt-2 font-semibold md:text-md lg:text-md">
             {' '}
             Authentification{' '}
-          </h3>
+          </h5>
           <div className="flex gap-2">
             <a
               className="transition transform hover:scale-125"
@@ -137,10 +137,10 @@ export default function Projects() {
             className="rounded-md"
             alt="Imagem da página inicial do meu projeto de to-do-list"
           />
-          <h3 className="pt-2 font-semibold md:text-md lg:text-md">
+          <h5 className="pt-2 font-semibold md:text-md lg:text-md">
             {' '}
             To-Do-List{' '}
-          </h3>
+          </h5>
           <div className="flex gap-2">
             <a
               className="transition transform hover:scale-125"
@@ -166,10 +166,10 @@ export default function Projects() {
             className="rounded-md"
             alt="Imagem da página inicial do meu projeto de mentoria"
           />
-          <h3 className="pt-2 font-semibold md:text-md lg:text-md">
+          <h5 className="pt-2 font-semibold md:text-md lg:text-md">
             {' '}
             Mentoria{' '}
-          </h3>
+          </h5>
           <div className="flex gap-2">
             <a
               className="transition transform hover:scale-125"
@@ -197,10 +197,10 @@ export default function Projects() {
             target="_blank"
           >
             {' '}
-            <h3 className="flex pt-12 md:pt-0 lg:pt-0 gap-2 font-semibold text-lg md:text-2xl lg:text-2xl">
+            <h5 className="flex pt-12 md:pt-0 lg:pt-0 gap-2 font-semibold text-lg md:text-2xl lg:text-2xl">
               {' '}
               <LuPlusCircle className="mt-1" /> Veja mais{' '}
-            </h3>{' '}
+            </h5>{' '}
           </a>
         </div>
     </div>

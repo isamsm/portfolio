@@ -5,12 +5,12 @@ export default function Contact() {
         {' '}
         Contate-me{' '}
       </h1>
-      <h2 className="text-md">
+      <p>
         {' '}
         Estou sempre disposta a novos desafios e novas oportunidades,
         principalmente quando essas podem me trazer um crescimento pessoal e
         profissional. Entre em contato!{' '}
-      </h2>
+      </p>
       <form action="https://formsubmit.co/isamarsques@gmail.com" method="POST">
         <div className="flex flex-col gap-1 mt-5">
           <input type="hidden" name="_captcha" value="false" />
