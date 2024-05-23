@@ -19,7 +19,7 @@ export default function MyApp({ Component, pageProps }) {
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
         />
       </Head>
-      <div className={inter.className}>gi
+      <div className={inter.className}>
         <AOSInit />
         <Component {...pageProps} />
       </div>
