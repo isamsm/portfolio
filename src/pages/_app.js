@@ -9,8 +9,8 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+        <title> Isa's portfolio </title>
+        <meta name="description" content='Porfolio da Isabelly Maria Marques de Souza, desenvolvedora front-end'/>
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
