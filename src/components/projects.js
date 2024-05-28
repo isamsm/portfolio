@@ -5,6 +5,7 @@ import gameflix from '../../public/projects/gameflix.png'
 import auth from '../../public/projects/auth.png'
 import todo from '../../public/projects/todo.png'
 import mentoria from '../../public/projects/mentoria.png'
+import amigo_literario from '../../public/projects/amigo_literario.png'
 
 import { LuPlusCircle, LuCode, LuLink2 } from 'react-icons/lu'
 
@@ -25,7 +26,7 @@ export default function Projects() {
           <h5 className="pt-2"> CODE&BAKE </h5>
           <div className="flex gap-2">
             <a
-              title='Link repositório projeto CODE&BAKE'
+              title="Link repositório projeto CODE&BAKE"
               className="transition transform hover:scale-125"
               href="https://github.com/isamsm/CODE-BAKE"
               target="_blank"
@@ -34,7 +35,7 @@ export default function Projects() {
               <LuCode />{' '}
             </a>
             <a
-              title='Link projeto hospedado CODE&BAKE'
+              title="Link projeto hospedado CODE&BAKE"
               className="transition transform hover:scale-125"
               href="https://code-bake.vercel.app"
               target="_blank"
@@ -56,7 +57,7 @@ export default function Projects() {
           </h5>
           <div className="flex gap-2">
             <a
-              title='Link repositório projeto Escolha'
+              title="Link repositório projeto Escolha"
               className="transition transform hover:scale-125"
               href="https://github.com/isamsm/escolha"
               target="_blank"
@@ -65,7 +66,7 @@ export default function Projects() {
               <LuCode />{' '}
             </a>
             <a
-              title='Link projeto hospedado Escolha'
+              title="Link projeto hospedado Escolha"
               className="transition transform hover:scale-125"
               href="https://escolha.vercel.app"
               target="_blank"
@@ -87,7 +88,7 @@ export default function Projects() {
           </h5>
           <div className="flex gap-2">
             <a
-              title='Link repositório projeto Gameflix'
+              title="Link repositório projeto Gameflix"
               className="transition transform hover:scale-125"
               href="https://github.com/isamsm/gameflix"
               target="_blank"
@@ -96,7 +97,7 @@ export default function Projects() {
               <LuCode />{' '}
             </a>
             <a
-              title='Link projeto hospedado Gameflix'
+              title="Link projeto hospedado Gameflix"
               className="transition transform hover:scale-125"
               href="https://gameflix-ashen.vercel.app"
               target="_blank"
@@ -108,7 +109,7 @@ export default function Projects() {
         </div>
       </div>
       <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-lg">
-      <div>
+        <div>
           <Image
             src={auth}
             className="rounded-md"
@@ -120,7 +121,7 @@ export default function Projects() {
           </h5>
           <div className="flex gap-2">
             <a
-              title='Link repositório projeto Login/Cadastro'
+              title="Link repositório projeto Login/Cadastro"
               className="transition transform hover:scale-125"
               href="https://github.com/isamsm/authentification"
               target="_blank"
@@ -129,7 +130,7 @@ export default function Projects() {
               <LuCode />{' '}
             </a>
             <a
-              title='Link projeto hospedado Login/Cadastro'
+              title="Link projeto hospedado Login/Cadastro"
               className="transition transform hover:scale-125"
               href="https://isamsm.github.io/authentification/"
               target="_blank"
@@ -151,7 +152,7 @@ export default function Projects() {
           </h5>
           <div className="flex gap-2">
             <a
-              title='Link repositório projeto To-Do-List'
+              title="Link repositório projeto To-Do-List"
               className="transition transform hover:scale-125"
               href="https://github.com/isamsm/to-do-list"
               target="_blank"
@@ -160,7 +161,7 @@ export default function Projects() {
               <LuCode />{' '}
             </a>
             <a
-              title='Link projeto hospedado To-Do-List'
+              title="Link projeto hospedado To-Do-List"
               className="transition transform hover:scale-125"
               href="https://isamsm.github.io/to-do-list/"
               target="_blank"
@@ -182,7 +183,7 @@ export default function Projects() {
           </h5>
           <div className="flex gap-2">
             <a
-              title='Link repositório projeto Mentoria'
+              title="Link repositório projeto Mentoria"
               className="transition transform hover:scale-125"
               href="https://github.com/isamsm/mentoria"
               target="_blank"
@@ -191,7 +192,7 @@ export default function Projects() {
               <LuCode />{' '}
             </a>
             <a
-              title='Link projeto hospedado Mentoria'
+              title="Link projeto hospedado Mentoria"
               className="transition transform hover:scale-125"
               href="https://mentoria-zeta.vercel.app"
               target="_blank"
@@ -202,9 +203,41 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="flex md:items-center lg:items-center">
+      <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-lg">
+        <div>
+          <Image
+            src={amigo_literario}
+            className="rounded-md"
+            alt="Imagem da página inicial do meu projeto Amigo Literário"
+          />
+          <h5 className="pt-2 font-semibold md:text-md lg:text-md">
+            {' '}
+            Amigo Literário{' '}
+          </h5>
+          <div className="flex gap-2">
+            <a
+              title="Link repositório projeto Amigo Literário"
+              className="transition transform hover:scale-125"
+              href="https://github.com/isamsm/amigo_literario"
+              target="_blank"
+            >
+              {' '}
+              <LuCode />{' '}
+            </a>
+            <a
+              title="Link projeto hospedado Amigo Literário"
+              className="transition transform hover:scale-125"
+              href="https://amigo-literario-theta.vercel.app"
+              target="_blank"
+            >
+              {' '}
+              <LuLink2 />{' '}
+            </a>
+          </div>
+        </div>
+        <div className="flex md:items-center lg:items-center">
           <a
-            title='Link outros projetos no Github'
+            title="Link outros projetos no Github"
             className="transition transform hover:scale-125"
             href="https://github.com/isamsm?tab=repositories"
             target="_blank"
@@ -216,6 +249,7 @@ export default function Projects() {
             </h5>{' '}
           </a>
         </div>
+      </div>
     </div>
   )
 }
