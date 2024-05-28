@@ -23,9 +23,7 @@ export default function Home() {
         <TypeAnimation
           sequence={[
             'Desenvolvedora front-end',
-            1000,
-            'Analista de sistemas',
-            1000,
+            1000
           ]}
           wrapper="span"
           speed={50}
