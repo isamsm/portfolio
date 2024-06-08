@@ -23,7 +23,7 @@ export default function Projects() {
             className="rounded-md"
             alt="Imagem da página inicial do meu projeto de boleria"
           />
-          <div className="projects-info h-full w-full">
+          <div className="projects-info">
             <h5 className="pt-2"> CODE&BAKE </h5>
             <div className="flex gap-2">
               <a
@@ -53,7 +53,7 @@ export default function Projects() {
             className="rounded-md"
             alt="Imagem da página inicial do meu projeto de escolha"
           />
-          <div className="projects-info h-full w-full">
+          <div className="projects-info">
             <h5 className="pt-2 font-semibold md:text-md lg:text-md">
               {' '}
               Escolha{' '}
@@ -86,7 +86,7 @@ export default function Projects() {
             className="rounded-md"
             alt="Imagem da página inicial do meu projeto do gameflix"
           />
-          <div className="projects-info h-full w-full">
+          <div className="projects-info">
             <h5 className="pt-2 font-semibold md:text-md lg:text-md">
               {' '}
               Gameflix{' '}
@@ -121,7 +121,7 @@ export default function Projects() {
             className="rounded-md"
             alt="Imagem da página inicial do meu projeto de Login/Cadastro"
           />
-          <div className="projects-info h-full w-full">
+          <div className="projects-info">
             <h5 className="pt-2 font-semibold md:text-md lg:text-md">
               {' '}
               Authentification{' '}
@@ -154,7 +154,7 @@ export default function Projects() {
             className="rounded-md"
             alt="Imagem da página inicial do meu projeto de To-Do-list"
           />
-          <div className="projects-info h-full w-full">
+          <div className="projects-info">
             <h5 className="pt-2 font-semibold md:text-md lg:text-md">
               {' '}
               To-Do-List{' '}
@@ -187,7 +187,7 @@ export default function Projects() {
             className="rounded-md"
             alt="Imagem da página inicial do meu projeto de mentoria"
           />
-          <div className="projects-info h-full w-full">
+          <div className="projects-info">
             <h5 className="pt-2 font-semibold md:text-md lg:text-md">
               {' '}
               Mentoria{' '}
@@ -222,7 +222,7 @@ export default function Projects() {
             className="rounded-md"
             alt="Imagem da página inicial do meu projeto Amigo Literário"
           />
-          <div className="projects-info h-full w-full">
+          <div className="projects-info">
             <h5 className="pt-2 font-semibold md:text-md lg:text-md">
               {' '}
               Amigo Literário{' '}
