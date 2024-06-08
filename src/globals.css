@@ -53,6 +53,26 @@ nav a:hover {
   animation: float 2s ease-in-out infinite;
 }
 
+.projects-info {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  color: #E5E5E5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.projects-card:hover .projects-info {
+  opacity: 1;
+}
+
 @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
