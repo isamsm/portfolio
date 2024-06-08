@@ -1,5 +1,3 @@
-const autoprefixer = require('autoprefixer');
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -17,8 +15,5 @@ module.exports = {
         'secundary': '#E5E5E5',
       },
     },
-  },
-  plugins: {
-    autoprefixer: {},
   },
 }
