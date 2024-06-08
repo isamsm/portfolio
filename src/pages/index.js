@@ -20,7 +20,7 @@ export default function Page() {
           </div>
         </section>
         <section id="projects">
-          <div className="h-full py-12 px-5 md:px-12 lg:px-12 flex justify-center items-center">
+          <div className="h-full pt-12 px-5 md:px-12 lg:px-12 flex justify-center items-center">
             <Projects />
           </div>
         </section>
