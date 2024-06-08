@@ -53,17 +53,30 @@ nav a:hover {
   animation: float 2s ease-in-out infinite;
 }
 
+.projects-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-img {
+  border-radius: 5px;
+}
+
 .projects-info {
   border-radius: 5px;
   color: #E5E5E5;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  top: 0;
+  align-items: center;
   opacity: 0;
   transition: 0.5s;
+}
+
+.projects-card:hover .projects-img {
+  filter: brightness(25%)
 }
 
 .projects-card:hover .projects-info {

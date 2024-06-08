@@ -17,10 +17,10 @@ export default function Projects() {
         Meus projetos{' '}
       </h1>
       <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-xl">
-        <div className="projects-card relative">
+        <div className="projects-card">
           <Image
             src={boleria}
-            className="rounded-md"
+            className="projects-img"
             alt="Imagem da página inicial do meu projeto de boleria"
           />
           <div className="projects-info">
@@ -47,10 +47,10 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="projects-card relative">
+        <div className="projects-card">
           <Image
             src={escolha}
-            className="rounded-md"
+            className="projects-img"
             alt="Imagem da página inicial do meu projeto de escolha"
           />
           <div className="projects-info">
@@ -80,10 +80,10 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="projects-card relative">
+        <div className="projects-card">
           <Image
             src={gameflix}
-            className="rounded-md"
+            className="projects-img"
             alt="Imagem da página inicial do meu projeto do gameflix"
           />
           <div className="projects-info">
@@ -115,10 +115,10 @@ export default function Projects() {
         </div>
       </div>
       <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-lg">
-        <div className="projects-card relative">
+        <div className="projects-card">
           <Image
             src={auth}
-            className="rounded-md"
+            className="projects-img"
             alt="Imagem da página inicial do meu projeto de Login/Cadastro"
           />
           <div className="projects-info">
@@ -148,10 +148,10 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="projects-card relative">
+        <div className="projects-card">
           <Image
             src={todo}
-            className="rounded-md"
+            className="projects-img"
             alt="Imagem da página inicial do meu projeto de To-Do-list"
           />
           <div className="projects-info">
@@ -181,10 +181,10 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="projects-card relative">
+        <div className="projects-card">
           <Image
             src={mentoria}
-            className="rounded-md"
+            className="projects-img"
             alt="Imagem da página inicial do meu projeto de mentoria"
           />
           <div className="projects-info">
@@ -216,10 +216,10 @@ export default function Projects() {
         </div>
       </div>
       <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-lg">
-        <div className="projects-card relative">
+        <div className="projects-card">
           <Image
             src={amigo_literario}
-            className="rounded-md"
+            className="projects-img"
             alt="Imagem da página inicial do meu projeto Amigo Literário"
           />
           <div className="projects-info">
