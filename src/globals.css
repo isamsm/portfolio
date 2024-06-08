@@ -3,18 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  box-sizing: border-box; 
-}
-
 body {
   overflow-x: hidden;
 }
 
 .gradient-background {
-  background: linear-gradient(300deg,#88b7d3,#87b6bf,#a488d3,#d388b7);
-  background-size: 240% 240%;
-  animation: gradient-animation 20s ease infinite;
+    background: linear-gradient(300deg,#88b7d3,#87b6bf,#a488d3,#d388b7);
+    background-size: 240% 240%;
+    animation: gradient-animation 20s ease infinite;
 }
 
 .header-props {
@@ -66,8 +62,8 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   position: absolute;
-  min-height: 100%;
-  min-width: 100%;
+  height: 100%;
+  width: 100%;
   top: 0;
   opacity: 0;
   transition: 0.5s;
