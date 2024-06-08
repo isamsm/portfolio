@@ -17,7 +17,7 @@ export default function Projects() {
         Meus projetos{' '}
       </h1>
       <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-xl">
-        <div className="projects-card relative h-full w-full">
+        <div className="projects-card relative">
           <Image
             src={boleria}
             className="rounded-md"
@@ -47,7 +47,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="projects-card relative h-full w-full">
+        <div className="projects-card relative">
           <Image
             src={escolha}
             className="rounded-md"
@@ -80,7 +80,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="projects-card relative h-full w-full">
+        <div className="projects-card relative">
           <Image
             src={gameflix}
             className="rounded-md"
@@ -115,7 +115,7 @@ export default function Projects() {
         </div>
       </div>
       <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-lg">
-        <div className="projects-card relative h-full w-full">
+        <div className="projects-card relative">
           <Image
             src={auth}
             className="rounded-md"
@@ -148,7 +148,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="projects-card relative h-full w-full">
+        <div className="projects-card relative">
           <Image
             src={todo}
             className="rounded-md"
@@ -181,7 +181,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="projects-card relative h-full w-full">
+        <div className="projects-card relative">
           <Image
             src={mentoria}
             className="rounded-md"
@@ -216,7 +216,7 @@ export default function Projects() {
         </div>
       </div>
       <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-lg">
-        <div className="projects-card relative h-full w-full">
+        <div className="projects-card relative">
           <Image
             src={amigo_literario}
             className="rounded-md"
