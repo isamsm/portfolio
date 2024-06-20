@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import boleria from '../../public/projects/boleria.png'
-import escolha from '../../public/projects/escolha.png'
-import gameflix from '../../public/projects/gameflix.png'
-import auth from '../../public/projects/auth.png'
-import todo from '../../public/projects/todo.png'
-import mentoria from '../../public/projects/mentoria.png'
-import amigo_literario from '../../public/projects/amigo_literario.png'
+import boleria from '../assets/projects/boleria.png'
+import escolha from '../assets/projects/escolha.png'
+import gameflix from '../assets/projects/gameflix.png'
+import auth from '../assets/projects/auth.png'
+import todo from '../assets/projects/todo.png'
+import mentoria from '../assets/projects/mentoria.png'
+import amigo_literario from '../assets/projects/amigo_literario.png'
 
 import { LuPlusCircle, LuCode, LuLink2 } from 'react-icons/lu'
 

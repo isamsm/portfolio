@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import avatar from '../../public/avatar.png'
+import avatar from '../assets/avatar.png'
 
 import { TypeAnimation } from 'react-type-animation'
 
