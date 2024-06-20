@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import avatar from '../assets/avatar.png'
+import avatar from '../assets/avatar.webp'
 
 import { TypeAnimation } from 'react-type-animation'
 
@@ -15,7 +15,7 @@ export default function Home() {
     >
       <Image
         src={avatar}
-        alt="eu"
+        alt="Um avatar inspirado em mim com uma animação para flutuar"
         className="avatar-float h-48 w-48 md:h-56 md:w-56 lg:h-72 lg:w-72"
       />
       <div className="flex flex-col justify-center uppercase font-bold text-xl md:text-5xl lg:text-5xl text-primary">
