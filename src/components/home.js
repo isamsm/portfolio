@@ -11,14 +11,14 @@ export default function Home() {
   return (
     <div
       data-aos="zoom-in"
-      className="flex flex-col md:flex-row lg:flex-row gap-5"
+      className="flex flex-col lg:flex-row gap-5"
     >
       <Image
         src={avatar}
         alt="Um avatar inspirado em mim com uma animação para flutuar"
-        className="avatar-float h-48 w-48 md:h-56 md:w-56 lg:h-72 lg:w-72"
+        className="avatar-float h-48 w-48 lg:h-72 lg:w-72"
       />
-      <div className="flex flex-col justify-center uppercase font-bold text-xl md:text-5xl lg:text-5xl text-primary">
+      <div className="flex flex-col justify-center uppercase font-bold text-xl lg:text-5xl text-primary">
         <h1> Isabelly Marques </h1>
         <TypeAnimation
           sequence={[

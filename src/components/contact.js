@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
-    <div data-aos="zoom-in" className="text-primary md:w-5/12 lg:w-5/12">
-      <h1 className="uppercase font-bold text-xl md:text-4xl lg:text-4xl pb-3">
+    <div data-aos="zoom-in" className="text-primary lg:w-5/12">
+      <h1 className="uppercase font-bold text-xl lg:text-4xl pb-3">
         {' '}
         Contate-me{' '}
       </h1>

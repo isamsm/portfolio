@@ -12,11 +12,11 @@ import { LuPlusCircle, LuCode, LuLink2 } from 'react-icons/lu'
 export default function Projects() {
   return (
     <div data-aos="zoom-in" className="text-primary flex flex-col gap-5">
-      <h1 className="uppercase font-bold text-xl md:text-4xl lg:text-4xl">
+      <h1 className="uppercase font-bold text-xl lg:text-4xl">
         {' '}
         Meus projetos{' '}
       </h1>
-      <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-xl">
+      <div className="grid lg:grid-cols-3 gap-5 font-semibold text-xl">
         <div className="projects-card">
           <Image
             src={boleria}
@@ -54,7 +54,7 @@ export default function Projects() {
             alt="Imagem da página inicial do meu projeto de escolha"
           />
           <div className="projects-info">
-            <h5 className="pt-2 font-semibold md:text-md lg:text-md">
+            <h5 className="pt-2 font-semibold lg:text-md">
               {' '}
               Escolha{' '}
             </h5>
@@ -87,7 +87,7 @@ export default function Projects() {
             alt="Imagem da página inicial do meu projeto do gameflix"
           />
           <div className="projects-info">
-            <h5 className="pt-2 font-semibold md:text-md lg:text-md">
+            <h5 className="pt-2 font-semibold lg:text-md">
               {' '}
               Gameflix{' '}
             </h5>
@@ -114,7 +114,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-lg">
+      <div className="grid lg:grid-cols-3 gap-5 font-semibold text-lg">
         <div className="projects-card">
           <Image
             src={auth}
@@ -122,7 +122,7 @@ export default function Projects() {
             alt="Imagem da página inicial do meu projeto de Login/Cadastro"
           />
           <div className="projects-info">
-            <h5 className="pt-2 font-semibold md:text-md lg:text-md">
+            <h5 className="pt-2 font-semibold lg:text-md">
               {' '}
               Authentification{' '}
             </h5>
@@ -155,7 +155,7 @@ export default function Projects() {
             alt="Imagem da página inicial do meu projeto de To-Do-list"
           />
           <div className="projects-info">
-            <h5 className="pt-2 font-semibold md:text-md lg:text-md">
+            <h5 className="pt-2 font-semibold lg:text-md">
               {' '}
               To-Do-List{' '}
             </h5>
@@ -188,7 +188,7 @@ export default function Projects() {
             alt="Imagem da página inicial do meu projeto de mentoria"
           />
           <div className="projects-info">
-            <h5 className="pt-2 font-semibold md:text-md lg:text-md">
+            <h5 className="pt-2 font-semibold lg:text-md">
               {' '}
               Mentoria{' '}
             </h5>
@@ -215,7 +215,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-5 font-semibold text-lg">
+      <div className="grid lg:grid-cols-3 gap-5 font-semibold text-lg">
         <div className="projects-card">
           <Image
             src={amigo_literario}
@@ -223,7 +223,7 @@ export default function Projects() {
             alt="Imagem da página inicial do meu projeto Amigo Literário"
           />
           <div className="projects-info">
-            <h5 className="pt-2 font-semibold md:text-md lg:text-md">
+            <h5 className="pt-2 font-semibold lg:text-md">
               {' '}
               Amigo Literário{' '}
             </h5>
@@ -249,7 +249,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="flex md:items-center lg:items-center justify-center">
+        <div className="flex lg:items-center justify-center">
           <a
             title="Link outros projetos no Github"
             className="transition transform hover:scale-125"
@@ -257,7 +257,7 @@ export default function Projects() {
             target="_blank"
           >
             {' '}
-            <h5 className="flex pt-12 md:pt-0 lg:pt-0 gap-2 font-semibold text-lg md:text-2xl lg:text-2xl">
+            <h5 className="flex pt-12 lg:pt-0 gap-2 font-semibold text-lg lg:text-2xl">
               {' '}
               <LuPlusCircle className="mt-1" /> Veja mais{' '}
             </h5>{' '}

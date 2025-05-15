@@ -2,10 +2,10 @@ export default function About() {
   return (
     <div
       data-aos="zoom-in"
-      className="text-secundary flex flex-col md:w-8/12 lg:w-8/12 gap-5"
+      className="text-secundary flex flex-col gap-5"
     >
       <div>
-        <h1 className="uppercase font-bold text-xl md:text-4xl lg:text-4xl pb-1 md:pb-3 lg:pb-3">
+        <h1 className="uppercase font-bold text-xl lg:text-4xl pb-1 lg:pb-3">
           {' '}
           Quem sou eu?{' '}
         </h1>
@@ -40,11 +40,11 @@ export default function About() {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h2 className="font-semibold text-lg md:text-3xl lg:text-3xl">
+        <h2 className="font-semibold text-lg lg:text-3xl">
           {' '}
           Competências{' '}
         </h2>
-        <div className="flex gap-2 md:gap-5 lg:gap-5 text-2xl md:text-3xl lg:text-3xl pb-1 md:pb-3 lg:pb-3">
+        <div className="flex gap-2 lg:gap-5 text-2xl lg:text-3xl pb-1 lg:pb-3">
           <i class="pulse devicon-html5-plain colored"></i>
           <i class="pulse devicon-javascript-plain colored"></i>
           <i class="pulse devicon-react-original colored"></i>

@@ -8,24 +8,24 @@ export default function Page() {
   return (
     <div className="font-main">
       <Menu />
-      <div className="flex flex-col gradient-background">
-        <section id="home">
-          <div className="h-screen px-5 md:px-12 lg:px-12 flex items-center">
+      <div className="flex flex-col gradient-background justify-center items-center">
+        <section className='max-w-[1280px] w-full' id="home">
+          <div className="h-screen px-5 lg:px-12 flex items-center">
             <Home />
           </div>
         </section>
-        <section id="about" className="bg-black">
-          <div className="h-full md:h-screen lg:h-screen py-12 md:py-0 lg:py-0 px-5 md:px-12 lg:px-12 flex md:justify-center lg:justify-center items-center">
+        <section id="about" className="bg-black w-full flex items-center justify-center">
+          <div className="max-w-[1280px] py-12 px-5 lg:px-12 w-full flex justify-center items-center">
             <About />
           </div>
         </section>
-        <section id="projects">
-          <div className="h-full py-12 px-5 md:px-12 lg:px-12 flex justify-center items-center">
+        <section className='max-w-[1280px] w-full' id="projects">
+          <div className="py-12 px-5 lg:px-12 flex justify-center items-center">
             <Projects />
           </div>
         </section>
-        <section id="contact">
-          <div className="h-screen px-5 md:px-12 lg:px-12 flex md:justify-end lg:justify-end items-center">
+        <section className='max-w-[1280px] w-full' id="contact">
+          <div className="px-5 lg:px-12 flex justify-center lg:justify-end items-center">
             <Contact />
           </div>
         </section>
