@@ -25,7 +25,7 @@ export default function Menu() {
       let sections = document.querySelectorAll('section')
       sections.forEach((s) => {
         let top = window.scrollY
-        let offSet = s.offsetTop - 250
+        let offSet = s.offsetTop - 400
         let height = s.offsetHeight
         let id = s.getAttribute('id')
 
