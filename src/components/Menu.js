@@ -46,13 +46,9 @@ export default function Menu() {
 
   return (
     <header
-      className={
-        bg
-          ? 'bg-black text-secundary header-props transition'
-          : 'bg-transparent text-primary header-props'
-      }
+      className={bg ? 'bg-black text-secundary header-props transition flex justify-center items-center' : 'bg-transparent text-primary header-props flex justify-center items-center'}
     >
-      <nav id='nav_buttons' className="flex justify-around cursor-pointer">
+      <nav id='nav_buttons' className="flex justify-around cursor-pointer max-w-[1280px] w-full">
         <a
           title='Navegar para a home'
           className={activeButton === 'home' ? 'active' : ''}
