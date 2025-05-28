@@ -9,7 +9,7 @@ import { TiSocialLinkedinCircular, TiSocialGithubCircular } from "react-icons/ti
 
 export default function Home() {
   return (
-    <div
+    <section
       data-aos="zoom-in"
       className="flex flex-col lg:flex-row gap-5"
     >
@@ -41,6 +41,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

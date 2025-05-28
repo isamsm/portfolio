@@ -1,10 +1,10 @@
 export default function Contact() {
   return (
-    <div data-aos="zoom-in" className="text-primary lg:w-5/12">
-      <h1 className="uppercase font-bold text-xl lg:text-4xl pb-3">
+    <section data-aos="zoom-in" className="text-primary lg:w-5/12">
+      <h3 className="uppercase font-bold text-xl lg:text-4xl pb-3">
         {' '}
         Contate-me{' '}
-      </h1>
+      </h3>
       <p>
         {' '}
         Estou sempre disposta a novos desafios e novas oportunidades,
@@ -64,6 +64,6 @@ export default function Contact() {
           </button>
         </div>
       </form>
-    </div>
+    </section>
   )
 }
