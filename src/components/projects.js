@@ -79,7 +79,7 @@ export default function Projects() {
       <div className="grid lg:grid-cols-3 gap-5 font-semibold text-xl">
         {projects.map((project) => {
           return (
-           <div className="projects-card">
+           <div className="projects-card" key={project.title}>
             <Image
               src={project.image}
               className="projects-img"
