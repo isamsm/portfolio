@@ -6,6 +6,7 @@ import auth from '../assets/projects/auth.webp'
 import todo from '../assets/projects/todo.webp'
 import mentoria from '../assets/projects/mentoria.webp'
 import amigo_literario from '../assets/projects/amigo_literario.webp'
+import memoria from '../assets/projects/memoria.webp'
 
 import { LuCode, LuLink2 } from 'react-icons/lu'
 
@@ -59,6 +60,13 @@ export default function Projects() {
       "repo": "https://github.com/isamsm/amigo_literario",
       "deploy": "https://amigo-literario-theta.vercel.app",
       "alt": "Imagem da página inicial do meu projeto amigo literário"
+    },
+    {
+      "title": "JOGO DA MEMÓRIA",
+      "image": memoria,
+      "repo": "https://github.com/isamsm/jogo-da-memoria",
+      "deploy": "https://jogo-da-memoria-ashy-rho.vercel.app",
+      "alt": "Imagem da página inicial do meu projeto de jogo da memória"
     },
   ]
 
