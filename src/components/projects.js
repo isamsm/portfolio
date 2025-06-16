@@ -8,7 +8,7 @@ import mentoria from '../assets/projects/mentoria.webp'
 import amigo_literario from '../assets/projects/amigo_literario.webp'
 import memoria from '../assets/projects/memoria.webp'
 
-import { LuCode, LuLink2 } from 'react-icons/lu'
+import { LuCode, LuLink2, LuPlusCircle } from 'react-icons/lu'
 
 export default function Projects() {
   const projects = [
@@ -89,7 +89,7 @@ export default function Projects() {
               <h3 className="pt-2"> {project.title} </h3>
               <div className="flex gap-2">
                 <a
-                  title="Link repositório projeto CODE&BAKE"
+                  title="Link repositório projeto"
                   className="transition transform hover:scale-125"
                   href={project.repo}
                   target="_blank"
@@ -98,7 +98,7 @@ export default function Projects() {
                   <LuCode />{' '}
                 </a>
                 <a
-                  title="Link projeto hospedado CODE&BAKE"
+                  title="Link projeto hospedado"
                   className="transition transform hover:scale-125"
                   href={project.deploy}
                   target="_blank"
@@ -111,6 +111,20 @@ export default function Projects() {
           </div>
         )
         })}
+         <div className="flex lg:items-center justify-center">
+          <a
+            title="Link outros projetos no Github"
+            className="transition transform hover:scale-125"
+            href="https://github.com/isamsm?tab=repositories"
+            target="_blank"
+          >
+            {' '}
+            <h5 className="flex pt-12 lg:pt-0 gap-2 font-semibold text-lg lg:text-2xl">
+              {' '}
+              <LuPlusCircle className="mt-1" /> Veja mais{' '}
+            </h5>{' '}
+          </a>
+        </div>
       </div>
     </section>
   )
