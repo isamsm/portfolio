@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import avatar from '../assets/avatar.webp'
+import avatar from '../assets/isabelly.png'
 
 import { TypeAnimation } from 'react-type-animation'
 
@@ -11,12 +11,12 @@ export default function Home() {
   return (
     <section
       data-aos="zoom-in"
-      className="flex flex-col lg:flex-row gap-5"
+      className="flex flex-col lg:flex-row"
     >
       <Image
         src={avatar}
         alt="Um avatar inspirado em mim com uma animação para flutuar"
-        className="avatar-float h-48 w-48 lg:h-72 lg:w-72"
+        className="avatar-float h-52 w-52 lg:w-80 lg:h-80"
       />
       <div className="flex flex-col justify-center uppercase font-bold text-xl lg:text-5xl text-primary">
         <h1> Isabelly Marques </h1>
