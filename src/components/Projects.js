@@ -99,7 +99,7 @@ const Projects = () => {
     return (
         <section className='flex flex-col justify-center h-full px-3 lg:pl-[60px] lg:gap-5 gap-6'>
             <h1 className='lg:text-6xl text-4xl text-copper font-philosopher'> Projetos </h1>
-            <div className='max-w-[800px] h-[280px] relative lg:block hidden'>
+            <div className='lg:max-w-[800px] h-[280px] relative lg:block hidden'>
                <Swiper
                     modules={[Navigation]}
                     spaceBetween={20}
@@ -153,10 +153,10 @@ const Projects = () => {
             </div>
 
             <div className='block lg:hidden'>
-                <div className='px-2 py-6 bg-dark_beige rounded-3xl relative'>
+                <div className='px-2 py-6 bg-dark_beige rounded-3xl relative flex justify-center'>
                     <div className='w-[267px] h-14 absolute left-0 lg:-top-6 -top-5 bg-dark_beige rounded-3xl -z-10'>
                     </div>
-                    <div className='grid grid-cols-2 gap-x-2 gap-y-6 h-[240px] overflow-y-auto pr-1'>
+                    <div className='grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-6 h-[240px] overflow-y-auto pr-1'>
                         {project.map((item, index) => (
                             <div key={index} onClick={() => setActiveSlide(index)} >
                                 <img className='border-[3px] border-wine rounded-3xl max-w-[169px] w-full h-[108px] object-cover' src={item.image} alt="" />
@@ -172,10 +172,14 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className='flex gap-1 items-center w-fit lg:h-[70px] h-[125px]'> 
-                <img className='lg:w-auto h-auto w-7' src={quoting_open} alt="" />
-                <h2 className='lg:max-w-[700px] lg:text-2xl text-lg lg:text-start text-center font-raleway text-black_coffe'> {activeSlide !== null ? project[activeSlide].description : 'No hover ou no clique da imagem do projeto são exibidas informações sobre ele.'} </h2> 
-                <img className='lg:w-auto h-auto w-7' src={quoting_close} alt="" />
+            <div className='lg:-ml-16 lg:max-w-[750px] w-fit lg:h-[70px] h-[125px] relative text-start'> 
+                <span className="inline-block align-text-top relative -top-1 lg:-top-[10px] left-2">
+                    <img src={quoting_open} alt="" className='lg:w-auto h-auto w-7 inline-block' />
+                </span>
+                <h2 className='inline lg:text-2xl text-lg lg:text-start text-center font-raleway text-black_coffe'> {activeSlide !== null ? project[activeSlide].description : 'No hover ou no clique da imagem do projeto são exibidas informações sobre ele.'} </h2> 
+                <span className="inline-block align-text-bottom relative -bottom-1 right-2">
+                    <img src={quoting_close} alt="" className="lg:w-auto h-auto w-7 inline-block " />
+                </span>
             </div>
         </section>
     );
