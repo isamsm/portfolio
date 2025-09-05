@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'Paris';
+    src: url('../src/assets/fonts/Hello\ Paris\ Sans\ Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #D7C6AB;
+    cursor: url('../src/assets/images/cursor.svg'), auto!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a, button {
+  cursor: url('../src/assets/images/pointer.svg'), pointer!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar {
+  width: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar-track {
+  background: #E9D4C1;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-thumb {
+  background: #5C5B40;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5C5B40;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    content: ""!important;
+}
+
+.swiper-button-disabled {
+    opacity: 0.5;
+}
+
+.swiper-slide {
+  overflow: visible !important;
 }
