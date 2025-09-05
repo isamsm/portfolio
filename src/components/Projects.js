@@ -156,7 +156,7 @@ const Projects = () => {
                 <div className='px-2 py-6 bg-dark_beige rounded-3xl relative flex justify-center'>
                     <div className='w-[267px] h-14 absolute left-0 lg:-top-6 -top-5 bg-dark_beige rounded-3xl -z-10'>
                     </div>
-                    <div className='grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-6 h-[240px] overflow-y-auto pr-1'>
+                    <div className='grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-6 h-[240px] overflow-y-scroll pr-1'>
                         {project.map((item, index) => (
                             <div key={index} onClick={() => setActiveSlide(index)} >
                                 <img className='border-[3px] border-wine rounded-3xl max-w-[169px] w-full h-[108px] object-cover' src={item.image} alt="" />

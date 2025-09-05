@@ -6,7 +6,7 @@ const About = () => {
                 <div className='lg:max-w-[618px] w-full py-4 lg:py-6 px-4 flex flex-col justify-center relative text-lg lg:text-xl text-black_coffe font-raleway bg-dark_beige rounded-3xl'>
                     <div className='w-[267px] h-14 absolute left-0 lg:-top-6 -top-5 bg-dark_beige rounded-3xl -z-10'>
                     </div>
-                    <p className='overflow-y-auto h-[360px] lg:h-[400px] pr-1'>
+                    <p className='overflow-y-scroll h-[360px] lg:h-[400px] pr-1'>
                         Me chamo Isabelly Maria Marques de Souza e sou uma Desenvolvedora Front-End já no ramo da tecnologia a dois anos, tenho uma paixão pela programação desde a infância que surpreendentemente, acabou se tornando minha carreira.
                         <br/>
                         <br/>
