@@ -113,7 +113,7 @@ const Projects = () => {
                 >
                     {project.map((item, index) => (
                         <SwiperSlide key={index}>
-                            <div className="relative inline-block max-w-[318px] pb-4" onClick={() => handleActiveSlide(index)} onMouseEnter={() => handleActiveSlide(index)} onMouseLeave={() => handleActiveSlide(null)}>
+                            <div className="relative inline-block max-w-[318px] pb-4" onMouseEnter={() => handleActiveSlide(index)}>
                                 <img
                                     style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)"}}
                                     className="border-[3px] border-wine rounded-3xl w-full h-[202px] object-cover"
@@ -158,12 +158,16 @@ const Projects = () => {
                     </div>
                     <div className='grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-6 h-[240px] overflow-y-scroll pr-1'>
                         {project.map((item, index) => (
-                            <div key={index} onClick={() => setActiveSlide(index)} >
+                            <div key={index} onClick={() => setActiveSlide(index)} className='relative'>
                                 <img className='border-[3px] border-wine rounded-3xl max-w-[169px] w-full h-[108px] object-cover' src={item.image} alt="" />
                                 {activeSlide === index && (
-                                    <div className="flex gap-4">
-                                        <a href={item.github} target='_blank'></a>
-                                        <a href={item.link} target='_blank'></a>
+                                    <div className="flex gap-4 w-full h-full absolute top-0 left-0 bg-black_coffe bg-opacity-75 rounded-3xl flex-row justify-center items-center">
+                                        <a href={item.link} target='_blank'>
+                                            <p className='text-4xl font-cormorant text-beige'> {"</>"} </p>
+                                        </a>
+                                        <a href={item.github} target='_blank'>
+                                            <img src={github} alt="Icone github" />
+                                        </a>
                                     </div>
                                 )}
                             </div>
