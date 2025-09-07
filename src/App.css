@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'Paris';
-    src: url('../src/assets/fonts/Hello\ Paris\ Sans\ Regular.ttf') format('truetype');
+    font-family: "Paris";
+    src: url("../src/assets/fonts/Hello\ Paris\ Sans\ Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
     background-color: #D7C6AB;
-    cursor: url('../src/assets/images/cursor.svg'), auto!important;
+    cursor: url("../src/assets/images/cursor.svg"), auto!important;
 }
 
 a, button {
-  cursor: url('../src/assets/images/pointer.svg'), pointer!important;
+  cursor: url("../src/assets/images/pointer.svg"), pointer!important;
 }
 
 ::-webkit-scrollbar {
