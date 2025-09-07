@@ -1,5 +1,6 @@
 import linkedin from '../assets/images/in.svg'
 import github from '../assets/images/github-red.svg'
+import mail from '../assets/images/mail.svg'
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <div className='flex gap-4 lg:gap-6'>
                 <a className='hover:transform hover:scale-105 transition-all' href='https://www.linkedin.com/in/isamsm' target='_blank'> <img class="lg:w-full lg:h-auto w-8 h-8" src={linkedin} alt="Icone linkedin" /> </a>
                 <a className='hover:transform hover:scale-105 transition-all' href='https://github.com/isamsm' target='_blank'> <img class="lg:w-full lg:h-auto w-8 h-8" src={github} alt="Icone github" /> </a>
+                <a className='hover:transform hover:scale-105 transition-all' href='mailto:isamarsques@gmail.com' target='_blank'> <img class="lg:w-full lg:h-auto w-8 h-8" src={mail} alt="Icone email" /> </a>
             </div>
         </main>
     );

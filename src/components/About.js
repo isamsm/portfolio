@@ -7,19 +7,11 @@ const About = () => {
                     <div className='w-[267px] h-14 absolute left-0 lg:-top-6 -top-5 bg-dark_beige rounded-3xl -z-10'>
                     </div>
                     <p className='overflow-y-scroll h-[360px] lg:h-[400px] pr-1'>
-                        Me chamo Isabelly Maria Marques de Souza e sou uma Desenvolvedora Front-End já no ramo da tecnologia a dois anos, tenho uma paixão pela programação desde a infância que surpreendentemente, acabou se tornando minha carreira.
-                        <br/>
-                        <br/>
-                        Sempre estou em busca de aprimorar meus conhecimentos, minhas habilidades e desvendar cada vez mais esse mundo da computação.
-                        <br/>
-                        <br/>
-                        Sou formada em Análise e Desenvolvimento de Sistemas pelo Centro Universitário do Sul de Minas(2023) aonde aprendi sobre cada ramo que poderia seguir e me apaixonei pelos códigos, pela ideia de criar algo do zero que poderia chegar a outras pessoas em qualquer parte do planeta.
-                        <br/>
-                        <br/>
-                        Estou me desenvolvendo profissionalmente, durante minha faculdade fiz um estágio como desenvolvedora na Softeo Technologies que durou um ano e um mês na onde me aprofundei muito e conheci o React, minha principal stack.
-                        <br/>
-                        <br/>
-                        Sou uma pessoa proativa, tenho conhecimento avançado em inglês, sei trabalhar em equipe, tenho uma boa comunicação além de ser também autodidata.
+                       Me chamo Isabelly Maria Marques de Souza e sou uma Desenvolvedora Front-End já no ramo da tecnologia a três anos, tenho uma paixão por computadores desde a infância, o que acabou vindo a se tornar minha carreira, algo que eu não esperava por muitos anos até que conheci os cursos ofertados na área.
+                       <br /><br />
+                       Sou formada em Análise e Desenvolvimento de Sistemas pelo Centro Universitário do Sul de Minas(2023) aonde aprendi um pouco sobre cada ramo que poderia seguir e me apaixonei pelos códigos, pela ideia de criar algo do zero que poderia resolver meus problemas e os de outros.
+                       <br /><br /> 
+                       Sou uma pessoa proativa, tenho conhecimento avançado em inglês com um diploma intermediário, sei trabalhar em equipe e sou autodidata. Sempre estou em busca de aprimorar meus conhecimentos, minhas habilidades e desvendar cada vez mais esse mundo da programação.
                     </p>
                 </div>
             </div>
