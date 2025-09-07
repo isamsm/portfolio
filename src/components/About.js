@@ -7,7 +7,7 @@ const About = () => {
                     <div className="w-[267px] h-14 absolute left-0 lg:-top-6 -top-5 bg-dark_beige rounded-3xl -z-10">
                     </div>
                     <p className="overflow-y-scroll h-[360px] lg:h-[400px] pr-1">
-                       Me chamo Isabelly Maria Marques de Souza e sou uma Desenvolvedora Front-End já no ramo da tecnologia a três anos, tenho uma paixão por computadores desde a infância, o que acabou vindo a se tornar minha carreira, algo que eu não esperava por muitos anos até que conheci os cursos ofertados na área.
+                       Me chamo Isabelly Maria Marques de Souza e sou uma Desenvolvedora Front-End já no ramo da tecnologia a três anos, tenho uma paixão por computadores desde a infância, o que acabou vindo a se tornar minha carreira, algo que eu não esperava até conhecer os cursos ofertados na área.
                        <br /><br />
                        Sou formada em Análise e Desenvolvimento de Sistemas pelo Centro Universitário do Sul de Minas(2023) aonde aprendi um pouco sobre cada ramo que poderia seguir e me apaixonei pelos códigos, pela ideia de criar algo do zero que poderia resolver meus problemas e os de outros.
                        <br /><br /> 
