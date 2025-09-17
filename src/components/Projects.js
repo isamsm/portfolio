@@ -88,15 +88,11 @@ const Projects = () => {
         },
     ]
     
-    const handleActiveSlide = (el, index) => {
-        const parent = el.parentElement.parentElement
-
+    const handleActiveSlide = (index) => {
         if(index === null) {
             setActiveSlide(null)
         } else {
-            if(parent.classList.contains("swiper-slide-active") || parent.classList.contains("swiper-slide-next")) {
-                setActiveSlide(index)
-            }
+            setActiveSlide(index)
         }
     }
 
@@ -117,7 +113,7 @@ const Projects = () => {
                 >
                     {project.map((item, index) => (
                         <SwiperSlide key={index}>
-                            <div className="relative inline-block max-w-[318px] pb-4" onMouseEnter={(e) => handleActiveSlide(e.target, index)}>
+                            <div className="relative inline-block max-w-[318px] pb-4" onMouseEnter={() => handleActiveSlide(index)}>
                                 <img
                                     style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)"}}
                                     className="border-[3px] border-wine rounded-3xl w-full h-[202px] object-cover"
@@ -125,7 +121,7 @@ const Projects = () => {
                                     alt="Imagem ${item.name}"
                                 />
 
-                                {activeSlide === index && index !== null && (
+                                {activeSlide === index && (
                                     <div style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)"}} className="relative mt-2 flex w-[252px] mx-auto py-1 bg-black_coffe rounded-3xl flex-row justify-center gap-4 items-center">
                                     <div
                                         className="h-5 w-10 bg-black_coffe absolute -top-4 left-16"
