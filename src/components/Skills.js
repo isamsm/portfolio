@@ -16,6 +16,7 @@ const Skills = () => {
                 <div className="flex text-xl lg:text-2xl gap-5 lg:gap-6 font-raleway text-black_coffe">
                     <p> nextjs </p>
                     <p> typescript </p>
+                    <p> shopify </p>
                 </div>
                 <h4 className="lg:text-5xl text-3xl text-olive font-philosopher"> idiomas: </h4>
                 <p className="text-xl lg:text-2xl font-raleway text-black_coffe"> inglês </p>
