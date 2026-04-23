@@ -6,6 +6,7 @@ import todo from "../assets/images/projects/todo.webp"
 import mentoria from "../assets/images/projects/mentoria.webp"
 import amigo_literario from "../assets/images/projects/amigo_literario.webp"
 import memoria from "../assets/images/projects/memoria.webp"
+import tourism from "../assets/images/projects/tourism.png"
 
 import github from "../assets/images/github-beige.svg"
 import quoting_open from "../assets/images/quote-open.svg"
@@ -86,6 +87,14 @@ const Projects = () => {
             github: "https://github.com/isamsm/jogo-da-memoria",
             link: "https://jogo-da-memoria-ashy-rho.vercel.app"
         },
+        {
+            id: 8,
+            name: "Tourism",
+            description: "Projeto de uma aplicação de busca por pontos turisticos feita com React, Typescript, Tailwind e Jest",
+            image: tourism,
+            github: "https://github.com/isamsm/tourism",
+            link: "https://tourism-ten-theta.vercel.app/"
+        }
     ]
     
     const handleActiveSlide = (index) => {
