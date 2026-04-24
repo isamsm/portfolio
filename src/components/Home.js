@@ -9,9 +9,9 @@ const Home = () => {
             <h2 className="text-olive text-5xl lg:text-[64px] font-cormorant -mt-[30px] lg:-mt-[38px]"> Desenvolvedora Front-End </h2>
 
             <div className="flex gap-4 lg:gap-6">
-                <a className="hover:transform hover:scale-105 transition-all" href="https://www.linkedin.com/in/isamsm" target="_blank"> <img class="lg:w-full lg:h-auto w-8 h-8" src={linkedin} alt="Icone linkedin" /> </a>
-                <a className="hover:transform hover:scale-105 transition-all" href="https://github.com/isamsm" target="_blank"> <img class="lg:w-full lg:h-auto w-8 h-8" src={github} alt="Icone github" /> </a>
-                <a className="hover:transform hover:scale-105 transition-all" href="mailto:isamarsques@gmail.com" target="_blank"> <img class="lg:w-full lg:h-auto w-8 h-8" src={mail} alt="Icone email" /> </a>
+                <a className="hover:transform hover:scale-105 transition-all" href="https://www.linkedin.com/in/isamsm" target="_blank" rel="noreferrer"> <img class="lg:w-full lg:h-auto w-8 h-8" src={linkedin} alt="Icone linkedin" /> </a>
+                <a className="hover:transform hover:scale-105 transition-all" href="https://github.com/isamsm" target="_blank" rel="noreferrer"> <img class="lg:w-full lg:h-auto w-8 h-8" src={github} alt="Icone github" /> </a>
+                <a className="hover:transform hover:scale-105 transition-all" href="mailto:isamarsques@gmail.com" target="_blank" rel="noreferrer"> <img class="lg:w-full lg:h-auto w-8 h-8" src={mail} alt="Icone email" /> </a>
             </div>
         </main>
     );

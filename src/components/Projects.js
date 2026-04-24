@@ -132,20 +132,13 @@ const Projects = () => {
 
                                 {activeSlide === index && (
                                     <div style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)"}} className="relative mt-2 flex w-[252px] mx-auto py-1 bg-black_coffe rounded-3xl flex-row justify-center gap-4 items-center">
-                                    <div
-                                        className="h-5 w-10 bg-black_coffe absolute -top-4 left-16"
-                                        style={{ clipPath: "polygon(0% 100%, 50% 0%, 100% 100%)" }}
-                                    />
-                                    <a
-                                        className="text-beige font-cormorant text-4xl"
-                                        href={item.link}
-                                        target="_blank"
-                                    >
-                                        {"</>"}
-                                    </a>
-                                    <a href={item.github} target="_blank">
-                                        <img src={github} alt="Icone github" />
-                                    </a>
+                                        <div className="h-5 w-10 bg-black_coffe absolute -top-4 left-16" style={{ clipPath: "polygon(0% 100%, 50% 0%, 100% 100%)" }}/>
+                                        <a className="text-beige font-cormorant text-4xl" href={item.link} target="_blank" rel="noreferrer">
+                                            {"</>"}
+                                        </a>
+                                        <a href={item.github} target="_blank" rel="noreferrer">
+                                            <img src={github} alt="Icone github" />
+                                        </a>
                                     </div>
                                 )}
                                 </div>
@@ -171,10 +164,10 @@ const Projects = () => {
                                 <img className="border-[3px] border-wine rounded-3xl max-w-[169px] w-full h-[108px] object-cover" src={item.image} alt="" />
                                 {activeSlide === index && (
                                     <div className="flex gap-4 w-full h-full absolute top-0 left-0 bg-black_coffe bg-opacity-75 rounded-3xl flex-row justify-center items-center">
-                                        <a href={item.link} target="_blank">
+                                        <a href={item.link} target="_blank" rel="noreferrer">
                                             <p className="text-4xl font-cormorant text-beige"> {"</>"} </p>
                                         </a>
-                                        <a href={item.github} target="_blank">
+                                        <a href={item.github} target="_blank" rel="noreferrer">
                                             <img src={github} alt="Icone github" />
                                         </a>
                                     </div>
