@@ -127,7 +127,7 @@ const Projects = () => {
                                     style={{ boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)"}}
                                     className="border-[3px] border-wine rounded-3xl w-full h-[202px] object-cover"
                                     src={item.image}
-                                    alt="Imagem ${item.name}"
+                                    alt={`Imagem ${item.name}`}
                                 />
 
                                 {activeSlide === index && (
@@ -146,10 +146,10 @@ const Projects = () => {
                     ))}
                 </Swiper>
 
-                <button class="custom-prev w-12 h-12 flex justify-center items-center bg-beige rounded-full absolute -left-[60px] top-1/2 -translate-y-1/2">
+                <button className="custom-prev w-12 h-12 flex justify-center items-center bg-beige rounded-full absolute -left-[60px] top-1/2 -translate-y-1/2">
                     <p className="text-4xl text-olive font-philosopher"> {"<"} </p>
                 </button>
-                <button class="custom-next w-12 h-12 flex justify-center items-center bg-beige rounded-full absolute -right-[60px] top-1/2 -translate-y-1/2 cursor-custom">
+                <button className="custom-next w-12 h-12 flex justify-center items-center bg-beige rounded-full absolute -right-[60px] top-1/2 -translate-y-1/2 cursor-custom">
                     <p className="text-4xl text-olive font-philosopher"> {">"} </p>
                 </button>
             </div>
